@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:tag="layout/start_view_0" android:background="res/drawable-xxhdpi-v4/background.jpg" android:layout_width="-1" android:layout_height="-1" android:weightSum="{4:1092616192}">
+	<TextView android:textSize="25sp" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="25dp" android:text="생존일지 만들기" android:fontFamily="res/font/font.ttf" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" />
+	<LinearLayout android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30dp" android:layout_marginBottom="20dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+		<TextView android:textSize="15sp" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="생존일지 제목" android:fontFamily="res/font/font.ttf" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" />
+		<EditText android:textSize="15sp" android:textColor="d9716e" android:gravity="0x11" android:layout_gravity="0x11" android:tag="binding_1" android:layout_width="-1" android:layout_height="-2" android:maxLength="6" android:fontFamily="res/font/font.ttf" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1098907648}" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+		<TextView android:textSize="15sp" android:gravity="0x11" android:layout_gravity="0x11" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:text="테마 선택" android:fontFamily="res/font/font.ttf" />
+		<FrameLayout android:layout_width="-1" android:layout_height="-1">
+			<android.support.v7.widget.RecyclerView android:id="false" android:scrollbars="0x200" android:layout_width="-1" android:layout_height="-1" />
+		</FrameLayout>
+	</LinearLayout>
+	<Button android:textSize="17sp" android:layout_gravity="0x11" android:tag="binding_2" android:background="0000" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30dp" android:text="확인" android:fontFamily="res/font/font.ttf" />
+</LinearLayout>

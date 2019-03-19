@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="res/drawable-xxhdpi-v4/background.jpg" android:layout_width="-1" android:layout_height="-1">
+	<com.ssomai.android.scalablelayout.ScalableLayout android:layout_width="-1" android:layout_height="-2" app:scale_base_height="{4:1143930880}" app:scale_base_width="{4:1137180672}">
+		<TextView android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="미션 수행 사진을 올려주세요!" android:fontFamily="res/font/font.ttf" app:scale_height="{4:1106247680}" app:scale_left="{4:1112014848}" app:scale_textsize="{4:1096810496}" app:scale_top="{4:1106247680}" app:scale_width="{4:1133903872}" />
+		<ImageButton android:textColor="ffffff" android:id="false" android:background="res/drawable/openbox.png" android:layout_width="-2" android:layout_height="-2" android:scaleType="6" android:text="Press Image" android:fontFamily="res/font/font.ttf" app:scale_height="{4:1127809024}" app:scale_left="{4:1120141312}" app:scale_textsize="{4:1106247680}" app:scale_top="{4:1117782016}" app:scale_width="{4:1128923136}" />
+		<android.support.design.widget.TextInputLayout android:id="false" android:layout_width="-1" android:layout_height="-2" app:scale_height="{4:1130102784}" app:scale_left="{4:1092616192}" app:scale_top="{4:1133576192}" app:scale_width="{4:1136525312}">
+			<EditText android:ellipsize="0" android:gravity="0x30" android:id="false" android:layout_width="-1" android:layout_height="-1" android:hint="생존일지를 작성해보세요" android:maxLines="5" android:scrollHorizontally="false" android:singleLine="false" android:inputType="0x1" android:imeOptions="0x0" android:imeActionId="6" android:fontFamily="res/font/font.ttf" />
+		</android.support.design.widget.TextInputLayout>
+		<Button android:textColor="000" android:id="false" android:background="0000" android:layout_width="-2" android:layout_height="-2" android:text="미션 제출" android:fontFamily="res/font/font.ttf" app:scale_height="{4:1112014848}" app:scale_left="{4:1125515264}" app:scale_textsize="{4:1099956224}" app:scale_top="{4:1141145600}" app:scale_width="{4:1120403456}" />
+	</com.ssomai.android.scalablelayout.ScalableLayout>
+</FrameLayout>

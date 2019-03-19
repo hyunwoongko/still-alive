@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:layout_gravity="0x50" android:orientation="1" android:id="false" android:tag="layout/sign_in_view_0" android:background="res/drawable-xxhdpi-v4/background.jpg" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="43sp" android:textStyle="0x1" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="25dp" android:text="still alive" android:fontFamily="res/font/title.ttf" />
+	<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="42dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+		<AutoCompleteTextView android:id="false" android:tag="binding_1" android:layout_width="-1" android:layout_height="-2" android:hint="이메일" android:maxLines="1" android:singleLine="true" android:inputType="0x21" android:fontFamily="res/font/font.ttf" />
+	</android.support.design.widget.TextInputLayout>
+	<android.support.design.widget.TextInputLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+		<android.support.design.widget.TextInputEditText android:id="false" android:tag="binding_2" android:layout_width="-1" android:layout_height="-2" android:hint="비밀번호" android:maxLines="1" android:singleLine="true" android:inputType="0x81" android:imeOptions="0x0" android:imeActionId="6" />
+	</android.support.design.widget.TextInputLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp">
+		<Button android:textSize="17sp" android:id="false" android:tag="binding_3" android:background="0000" android:layout_width="-2" android:layout_height="30dp" android:layout_marginTop="30dp" android:text="로그인 하기" android:fontFamily="res/font/font.ttf" style="{2:16842818}" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30dp">
+		<TextView android:textSize="13sp" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="아직 계정이 없으신가요?" android:fontFamily="res/font/font.ttf" />
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp">
+			<TextView android:textSize="14sp" android:gravity="0x11" android:tag="binding_4" android:layout_width="-2" android:layout_height="-2" android:text=" 여기" android:fontFamily="res/font/font.ttf" />
+			<TextView android:textSize="13sp" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="를 눌러 가입하세요." android:fontFamily="res/font/font.ttf" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

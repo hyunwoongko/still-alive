@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:tag="layout/capsule_view_0" android:background="res/drawable-xxhdpi-v4/background.jpg" android:layout_width="-1" android:layout_height="-1" android:weightSum="{4:1092616192}">
+	<TextView android:textSize="25sp" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="25dp" android:text="생존 일지" android:fontFamily="res/font/font.ttf" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" />
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="20dp" android:layout_marginBottom="60dp" android:layout_weight="{4:1098907648}" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+		<FrameLayout android:layout_width="-1" android:layout_height="-1">
+			<android.support.v7.widget.RecyclerView android:id="false" android:scrollbars="0x200" android:layout_width="-1" android:layout_height="-1" />
+		</FrameLayout>
+	</LinearLayout>
+</LinearLayout>

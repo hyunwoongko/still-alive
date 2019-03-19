@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="10dp" android:layout_marginEnd="10dp">
+	<RelativeLayout android:id="false" android:background="res/drawable/dialog_round.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="150dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+		<TextView android:textSize="20sp" android:textStyle="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40dp" android:text="Still Alive" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+		<TextView android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="Still Alive" android:layout_below="false" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_marginStart="20dp" />
+		<Button android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_below="false" android:paddingStart="10dp" android:paddingEnd="10dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" style="resourceId:0x7f1000b1" />
+		<Button android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="40dp" android:layout_marginBottom="10dp" android:layout_below="false" android:paddingStart="10dp" android:paddingEnd="10dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" style="resourceId:0x7f1000b1" />
+		<Button android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="2" android:layout_width="-1" android:layout_height="40dp" android:layout_marginBottom="10dp" android:layout_below="false" android:paddingStart="10dp" android:paddingEnd="10dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" style="resourceId:0x7f1000b1" />
+	</RelativeLayout>
+	<RelativeLayout android:background="res/drawable/circle_background.xml" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="35dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+		<RelativeLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="resourceId:0x7f100001">
+			<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>

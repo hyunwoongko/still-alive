@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="res/drawable/big_button_background.xml" android:clickable="true" android:layout_width="80dp" android:layout_height="80dp">
+	<View android:id="false" android:background="res/drawable/big_button_effect.xml" android:layout_width="80dp" android:layout_height="80dp" />
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="35sp" android:gravity="0x51" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="5" />
+		<TextView android:gravity="0x31" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="-8dp" android:text="ABC" />
+	</LinearLayout>
+</FrameLayout>

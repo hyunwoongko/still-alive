@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:tag="layout/sign_up_view_0" android:background="res/drawable-xxhdpi-v4/background.jpg" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="43sp" android:textStyle="0x1" android:gravity="0x11" android:layout_gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="30dp" android:text="still alive" android:fontFamily="res/font/title.ttf" />
+	<LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+		<TextView android:gravity="0x11" android:layout_width="100dp" android:layout_height="-2" android:text="이메일" android:fontFamily="res/font/font.ttf" />
+		<android.support.design.widget.TextInputEditText android:id="false" android:tag="binding_1" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+		<TextView android:gravity="0x11" android:layout_width="100dp" android:layout_height="-2" android:text="비밀번호" android:fontFamily="res/font/font.ttf" />
+		<android.support.design.widget.TextInputEditText android:id="false" android:tag="binding_2" android:layout_width="-1" android:layout_height="-2" android:inputType="0x81" android:imeOptions="0x0" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+		<TextView android:gravity="0x11" android:layout_width="100dp" android:layout_height="-2" android:text="재입력" android:fontFamily="res/font/font.ttf" />
+		<android.support.design.widget.TextInputEditText android:id="false" android:tag="binding_3" android:layout_width="-1" android:layout_height="-2" android:inputType="0x81" android:imeOptions="0x0" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+		<TextView android:gravity="0x11" android:layout_width="100dp" android:layout_height="-2" android:text="이름" android:fontFamily="res/font/font.ttf" />
+		<android.support.design.widget.TextInputEditText android:id="false" android:tag="binding_4" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+		<TextView android:gravity="0x11" android:layout_width="100dp" android:layout_height="-2" android:text="직업" android:fontFamily="res/font/font.ttf" />
+		<android.support.design.widget.TextInputEditText android:id="false" android:tag="binding_5" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+		<TextView android:gravity="0x11" android:layout_width="100dp" android:layout_height="-2" android:text="사는 곳" android:fontFamily="res/font/font.ttf" />
+		<android.support.design.widget.TextInputEditText android:id="false" android:tag="binding_6" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+		<TextView android:gravity="0x11" android:layout_width="100dp" android:layout_height="-2" android:text="한줄 소개" android:fontFamily="res/font/font.ttf" />
+		<android.support.design.widget.TextInputEditText android:id="false" android:tag="binding_7" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+	<Button android:textSize="15sp" android:id="false" android:tag="binding_8" android:background="0000" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="25dp" android:text="회원 가입하기" android:fontFamily="res/font/font.ttf" />
+</LinearLayout>

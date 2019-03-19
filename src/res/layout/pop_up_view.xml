@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="res/drawable/shape2.xml" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="17dp" android:textColor="000" android:gravity="0x11" android:layout_gravity="0x11" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp" android:text=" 어플리케이션 정보" android:drawableLeft="res/drawable/ic_live_help_black_24dp.xml" android:drawableStart="res/drawable/ic_live_help_black_24dp.xml" android:fontFamily="res/font/font.ttf" />
+	<TextView android:textSize="15dp" android:textColor="000" android:background="f9f5ea" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp" android:text=" 어플리케이션 버전 : 1.0 Ver" android:drawableLeft="res/drawable/ic_build_black_24dp.xml" android:drawableStart="res/drawable/ic_build_black_24dp.xml" android:fontFamily="res/font/font.ttf" />
+	<TextView android:textSize="15dp" android:textColor="000" android:background="f9f5ea" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp" android:text=" 개발자 : Awakers" android:drawableLeft="res/drawable/ic_security_black_24dp.xml" android:drawableStart="res/drawable/ic_security_black_24dp.xml" android:fontFamily="res/font/font.ttf" />
+	<TextView android:textSize="15dp" android:textColor="000" android:background="f9f5ea" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp" android:text=" Still Alive : http://stillalive.com/" android:drawableLeft="res/drawable/ic_public_black_24dp.xml" android:drawableStart="res/drawable/ic_public_black_24dp.xml" android:fontFamily="res/font/font.ttf" />
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="15dp">
+		<TextView android:textSize="15dp" android:textColor="000" android:background="f9f5ea" android:padding="5dp" android:layout_width="-1" android:layout_height="-2" android:text=" Still Alive 운영진 소개" android:drawableLeft="res/drawable/ic_assignment_ind_black_24dp.xml" android:drawableStart="res/drawable/ic_assignment_ind_black_24dp.xml" android:fontFamily="res/font/font.ttf" />
+		<ScrollView android:layout_width="-1" android:layout_height="-1" android:isScrollContainer="true">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="15dp">
+					<com.awakers.stillalive.utill.circle.CircleImageView android:layout_width="80dp" android:layout_height="80dp" android:src="res/drawable/hyunwoong.jpg" app:civ_border_color="000" app:civ_border_width="2dp" />
+					<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp">
+						<TextView android:textSize="17dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="고현웅" android:fontFamily="res/font/font.ttf" />
+						<TextView android:textSize="15dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="소프트웨어공학과 14학번" android:fontFamily="res/font/font.ttf" />
+						<TextView android:textSize="15dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="gusdnd852@naver.com" android:fontFamily="res/font/font.ttf" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="15dp">
+					<com.awakers.stillalive.utill.circle.CircleImageView android:layout_width="80dp" android:layout_height="80dp" android:src="res/drawable/junhee.jpg" app:civ_border_color="000" app:civ_border_width="2dp" />
+					<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp">
+						<TextView android:textSize="17dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="이준희" android:fontFamily="res/font/font.ttf" />
+						<TextView android:textSize="15dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="소프트웨어공학과 14학번" android:fontFamily="res/font/font.ttf" />
+						<TextView android:textSize="15dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="chappy11@naver.com" android:fontFamily="res/font/font.ttf" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="15dp">
+					<com.awakers.stillalive.utill.circle.CircleImageView android:layout_width="80dp" android:layout_height="80dp" android:src="res/drawable/bongo.jpg" app:civ_border_color="000" app:civ_border_width="2dp" />
+					<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp">
+						<TextView android:textSize="17dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="문봉오" android:fontFamily="res/font/font.ttf" />
+						<TextView android:textSize="15dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="소프트웨어공학과 16학번" android:fontFamily="res/font/font.ttf" />
+						<TextView android:textSize="15dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="ansqhddh@gmail.com" android:fontFamily="res/font/font.ttf" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="15dp">
+					<com.awakers.stillalive.utill.circle.CircleImageView android:layout_width="80dp" android:layout_height="80dp" android:src="res/drawable/younsu.jpg" app:civ_border_color="000" app:civ_border_width="2dp" />
+					<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp">
+						<TextView android:textSize="17dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="남윤수" android:fontFamily="res/font/font.ttf" />
+						<TextView android:textSize="15dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="소프트웨어공학과 18학번" android:fontFamily="res/font/font.ttf" />
+						<TextView android:textSize="15dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="nys6635@gmail.com" android:fontFamily="res/font/font.ttf" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="15dp">
+					<com.awakers.stillalive.utill.circle.CircleImageView android:layout_width="80dp" android:layout_height="80dp" android:src="res/drawable/seryeong.jpg" app:civ_border_color="000" app:civ_border_width="2dp" />
+					<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp">
+						<TextView android:textSize="17dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="민세령" android:fontFamily="res/font/font.ttf" />
+						<TextView android:textSize="15dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="심리학과 15학번" android:fontFamily="res/font/font.ttf" />
+						<TextView android:textSize="15dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="mininhaney@gmail.com" android:fontFamily="res/font/font.ttf" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="15dp">
+					<com.awakers.stillalive.utill.circle.CircleImageView android:id="false" android:layout_width="80dp" android:layout_height="80dp" android:src="res/drawable/ara.jpg" app:civ_border_color="000" app:civ_border_width="2dp" />
+					<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp">
+						<TextView android:textSize="17dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="조아라" android:fontFamily="res/font/font.ttf" />
+						<TextView android:textSize="15dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="산업디자인학과 16학번" android:fontFamily="res/font/font.ttf" />
+						<TextView android:textSize="15dp" android:textColor="000" android:layout_width="-1" android:layout_height="-2" android:text="dkfk5009@naver.com" android:fontFamily="res/font/font.ttf" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>

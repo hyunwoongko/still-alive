@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:gravity="0x10" android:height="40dp" android:width="40dp" android:left="4dp">
+		<shape android:shape="1">
+			<solid android:color="resourceId:0x106000b" />
+		</shape>
+	</item>
+	<item android:left="15dp">
+		<bitmap android:gravity="0x13" android:src="res/drawable-xxhdpi-v4/googleg_standard_color_18.png" />
+	</item>
+</layer-list>

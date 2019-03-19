@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<com.nightonke.blurlockview.BlurView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+	<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_above="false">
+			<TextView android:textSize="20sp" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="56dp" android:layout_marginBottom="15dp" android:text="Input Password" />
+			<com.nightonke.blurlockview.Indicator android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="30dp" />
+		</LinearLayout>
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="80dp" android:layout_marginBottom="15dp" android:layout_above="false" />
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="80dp" android:layout_marginBottom="15dp" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<LinearLayout android:layout_gravity="0x50" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="80dp">
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</LinearLayout>
+	<TextView android:gravity="0x11" android:layout_gravity="0x800053" android:id="false" android:layout_width="100dp" android:layout_height="50dp" android:layout_marginBottom="15dp" android:text="紧急情况" android:layout_marginStart="20dp" />
+	<TextView android:gravity="0x11" android:layout_gravity="0x800055" android:id="false" android:layout_width="100dp" android:layout_height="50dp" android:layout_marginBottom="15dp" android:text="删除" android:layout_marginEnd="20dp" />
+</FrameLayout>

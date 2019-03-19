@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:tag="layout/splash_view_0" android:background="f9f5ea" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:background="res/drawable-xxhdpi-v4/splash.png" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+</LinearLayout>

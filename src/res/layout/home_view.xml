@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/home_view_0" android:background="res/drawable-xxhdpi-v4/background.jpg" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="180dp" android:scaleType="7" />
+	<LinearLayout android:gravity="0x50" android:orientation="1" android:background="res/drawable/shape.xml" android:layout_width="-1" android:layout_height="-1" android:weightSum="{4:1077936128}">
+		<TextView android:textSize="17sp" android:gravity="0x11" android:id="false" android:tag="binding_1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="85dp" android:layout_weight="{4:1073741824}" android:fontFamily="res/font/font.ttf" />
+		<FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<ImageView android:layout_gravity="0x11" android:id="false" android:tag="binding_2" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+		</FrameLayout>
+	</LinearLayout>
+</FrameLayout>
